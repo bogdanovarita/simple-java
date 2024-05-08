@@ -4,6 +4,8 @@ package ru.rita.simple.java.lists;
 //----------------------------------------
 //https://leetcode.com/problems/merge-two-sorted-lists/
 
+// Different ways to solve this task: https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/
+
 //You are given the heads of two sorted linked lists list1 and list2.
 // Merge the two lists into one sorted list.
 // The list should be made by splicing together the nodes of the first two lists.
@@ -19,6 +21,10 @@ package ru.rita.simple.java.lists;
  * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
+// Complexity:
+//       time: O(N+M) - N - length of list1, M - length of list2
+//       memory: O(1)
 
 public class MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
