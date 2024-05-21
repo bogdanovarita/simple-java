@@ -5,7 +5,7 @@ import junit.framework.TestCase;
 public class MergeKSortedListsTest extends TestCase {
     public void testMergeKLists_when_null() {
         MergeKSortedLists sorter = new MergeKSortedLists();
-        assertNull(null, sorter.mergeKLists(null));
+        assertNull(sorter.mergeKLists(null));
     }
 
     public void testMergeKLists_when_empty() {
@@ -18,14 +18,14 @@ public class MergeKSortedListsTest extends TestCase {
         MergeKSortedLists sorter = new MergeKSortedLists();
 
         ListNode[] lists = {null};
-        assertNull(null, sorter.mergeKLists(lists));
+        assertNull( sorter.mergeKLists(lists));
     }
 
     public void testMergeKLists_when_all_lists_inside_null() {
         MergeKSortedLists sorter = new MergeKSortedLists();
 
         ListNode[] lists = {null, null, null};
-        assertNull(null, sorter.mergeKLists(lists));
+        assertNull( sorter.mergeKLists(lists));
     }
 
     public void testMergeKLists_when_one_list_not_null() {
