@@ -1,5 +1,9 @@
 package ru.rita.simple.java;
 
+import java.util.Collections;
+import java.util.PriorityQueue;
+import java.util.Queue;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
@@ -15,5 +19,16 @@ public class Main {
             // for you, but you can always add more by pressing Ctrl+F8.
             System.out.println("i = " + i);
         }
+
+        Queue<Integer> test = new PriorityQueue<>(Collections.reverseOrder());
+        test.add(3);
+        test.add(4);
+        test.add(1);
+        test.add(2);
+        System.out.println(test);
+        System.out.println(test.poll());
+        System.out.println(test);
+        System.out.println(test.poll());
+        System.out.println(test);
     }
 }

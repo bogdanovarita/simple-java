@@ -1,7 +1,8 @@
 package ru.rita.simple.java.lists;
 
 /*
-https://leetcode.com/problems/merge-k-sorted-lists/
+https://leetcode.com/problems/reverse-linked-list/
+206. Reverse Linked List
 Given the head of a singly linked list, reverse the list, and return the reversed list.
 --------------
 Example1:
