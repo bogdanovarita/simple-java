@@ -31,7 +31,11 @@ JUnit 4 is used to check tasks.
    1. [x] https://leetcode.com/problems/binary-search/description/
    2. [x] [BinarySearch.java](src/main/java/ru/rita/simple/java/binarysearch/BinarySearch.java)
    3. [x] [MergeTwoSortedListsTest.java](src/test/java/ru/rita/simple/java/binarysearch/BinarySearchTest.java)
-4. 374: Guess Number Higher or Lower
-1. [x] https://leetcode.com/problems/guess-number-higher-or-lower/description/
-2. [x] [GuessGame.java](src/main/java/ru/rita/simple/java/binarysearch/GuessGame.java)
-3. [x] [GuessGameTest.java](src/test/java/ru/rita/simple/java/binarysearch/GuessGameTest.java)
+7. 374: Guess Number Higher or Lower
+   1. [x] https://leetcode.com/problems/guess-number-higher-or-lower/description/
+   2. [x] [GuessGame.java](src/main/java/ru/rita/simple/java/binarysearch/GuessGame.java)
+   3. [x] [GuessGameTest.java](src/test/java/ru/rita/simple/java/binarysearch/GuessGameTest.java)
+8. 74: Search a 2D Matrix
+   1. [x] https://leetcode.com/problems/search-a-2d-matrix/description/
+   2. [x] [SearchInTwoDimensionalMatrix.java](src/main/java/ru/rita/simple/java/binarysearch/SearchInTwoDimensionalMatrix.java)
+   3. [x] [SearchInTwoDimensionalMatrixTest.java](src/test/java/ru/rita/simple/java/binarysearch/SearchInTwoDimensionalMatrixTest.java)
