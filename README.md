@@ -39,3 +39,7 @@ JUnit 4 is used to check tasks.
    1. [x] https://leetcode.com/problems/search-a-2d-matrix/description/
    2. [x] [SearchInTwoDimensionalMatrix.java](src/main/java/ru/rita/simple/java/binarysearch/SearchInTwoDimensionalMatrix.java)
    3. [x] [SearchInTwoDimensionalMatrixTest.java](src/test/java/ru/rita/simple/java/binarysearch/SearchInTwoDimensionalMatrixTest.java)
+9. 33: Search in Rotated Sorted Array
+   1. [x] https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+   2. [x] [SearchInRotatedSortedArray.java](src/main/java/ru/rita/simple/java/binarysearch/SearchInRotatedSortedArray.java)
+   3. [x] [SearchInRotatedSortedArrayTest.java](src/test/java/ru/rita/simple/java/binarysearch/SearchInRotatedSortedArrayTest.java)
